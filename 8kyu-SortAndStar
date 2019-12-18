@@ -1,0 +1,8 @@
+function twoSort(s) {
+  let str = s.sort(),
+      a=str[0],
+      res =[]
+  for(let i = 0; i<a.length; i++)
+    res.push(a[i])
+  return res.join('***')
+}
